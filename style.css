@@ -98,8 +98,11 @@ header {
     font-size: 2em;
 }
 
-.content p {
-    padding: 10px 0 40px 0;
+
+
+
+.btn-group {
+    padding: 40px 0 40px 0;
 }
 
 .btn-group a {
@@ -167,7 +170,7 @@ header {
     position: relative;
     width: 100%;
     height: 100vh;
-    background: url('Web Image/PFP.png');
+    background: url('Web Image/aboutmebg.png');
     background-size: cover;
     background-position: center;
     display: flex;
@@ -176,9 +179,83 @@ header {
 
 }
 
+.aboutcontent p {
+    padding: 10px 0 40px 0;
+}
+
+
 .aboutcontent {
     max-width: 500px;
     color: #433e3e;
 
 }
 
+
+
+
+/*Blog Page Here*/
+
+.blog {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background: url('Web Image/blogbg.png');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    padding: 30px 100px;
+
+}
+
+.blogcontent {
+    max-width: 500px;
+    color: #433e3e;
+
+}
+
+
+
+/*Contact Page Here*/
+
+.contact {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background: url('Web Image/contactbg.png');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    padding: 30px 100px;
+
+}
+
+.contactcontent {
+    max-width: 500px;
+    color: #433e3e;
+
+}
+
+
+
+/*Portfolio Page Here*/
+
+.portfolio {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background: url('Web Image/portfoliobg.png');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    padding: 30px 100px;
+
+}
+
+.portfoliocontent {
+    max-width: 500px;
+    color: #433e3e;
+
+}
